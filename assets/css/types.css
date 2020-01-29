@@ -107,7 +107,7 @@ h1 {
 
 #circles {
   opacity: 100%;
-  display: flex;
+  display: none;
   flex-direction: column;
   position: fixed;
   right: 3%;
@@ -118,7 +118,7 @@ h1 {
 }
 
 #icircles {
-  display: flex;
+  display: none;
   flex-direction: column;
   position: fixed;
   right: 3%;

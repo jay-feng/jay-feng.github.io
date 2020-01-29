@@ -54,8 +54,7 @@ let icircle5 = document.getElementById("icircle5");
 let icircle6 = document.getElementById("icircle6");
 let icircle7 = document.getElementById("icircle7");
 
-circles.style.display = "none";
-icircles.style.display = "none";
+
 allgreen();
 var highlighted1 = false;
 
