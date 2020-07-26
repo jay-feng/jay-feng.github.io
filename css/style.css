@@ -1,0 +1,27 @@
+body {
+  background-color: #efe7db;
+  margin-left: 8%;
+  margin-top: 8%;
+}
+
+h1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 64pt;
+}
+
+h3 {
+  font-family: 'Playfair Display', serif;
+  font-size: 18pt;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+    color: inherit;
+}
