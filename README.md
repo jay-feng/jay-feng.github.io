@@ -1,3 +1,3 @@
 # jay-feng.github.io
 
-Temporary Personal Website
+Temporary Personal Website (outdated)
