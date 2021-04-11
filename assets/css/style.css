@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    padding-top: 80px;
+    padding-bottom: 30px;
+}
+
+#intro {
+    padding-bottom: 20px;
+}
+
+h2 {
+    padding-bottom: 20px;
+}
+
+body {
+    width: 46%;
+    position: relative;
+    left: 27%;
+}
+
+.info-block-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 7%;
+}
+
+.info-block {
+    width: 45%;
+}
+
+
+
