@@ -8,40 +8,64 @@
   <meta name="description" content="Jay Feng Personal Website">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
+    rel="stylesheet">
 </head>
 
 <body>
-  <h1>Hi, I'm Jay!</h1>
-  <p id="intro">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-    dolore magna
-    aliqua. Feugiat sed lectus vestibulum mattis ullamcorper velit sed.</p>
+  <header>
+    <h1>Hi, I'm Jay!</h1>
+    <div id="image-links">
+      <a href="mailto: jayfeng10@berkeley.edu"><img src="assets/img/email.png" alt="Email Logo" height=30px></a>
+      <a href="https://www.linkedin.com/in/jayccfeng/" target="_blank"><img src="assets/img/linkedin.png"
+          alt="Linkedin Logo" height=30px></a>
+      <a href="https://github.com/jay-feng" target="_blank"><img src="assets/img/github.png" alt="Github Logo"
+          height=30px></a>
+    </div>
+  </header>
+  <p id="intro">I'm currently a sophomore at UC Berkeley studying Computer Science and Data Science. I'm interested in
+    software development, data science and analytics, applied statistics, and teaching. Feel free to reach out to chat
+    about
+    anything!</p>
   <h2>Experiences</h2>
   <div id="experiences">
     <div class="info-block-row">
       <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=100px>
-        <h3>Berkeley Institute for Data Science</h3>
+        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=80px class="logo">
+        <a href="https://bids.berkeley.edu/" target="_blank">
+          <h3>Berkeley Institute for Data Science</h3>
+        </a>
         <p><b>Software Developer and Team Lead</b> for the <a href="https://www.publiceditor.io">Public Editor
-            Project</a>.</p>
+            Project</a></p>
       </div>
       <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=100px>
-        <h3>Student Association of Applied Statistics</h3>
+        <img src="assets/img/saas.png" alt="Student Association of Applied Statistics Logo" height=70px class="logo"
+          id="saas-logo">
+        <a href="https://saas.berkeley.edu/" target="_blank">
+          <h3>Student Association of Applied Statistics</h3>
+        </a>
         <p><b>Co-director of the Insights and Analytics Commitee</b>, prepare workshops and mentor committee members on
           a data science client project</p>
       </div>
     </div>
     <div class="info-block-row">
       <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=100px>
-        <h3>Web Design DeCal</h3>
+        <img src="assets/img/wdd.png" alt="Web Design DeCal Logo" height=80px class="logo">
+        <a href="https://wdd.io/" target="_blank">
+          <h3>Web Design DeCal</h3>
+        </a>
         <p><b>Teaching Assistant</b> - teach students HTML, CSS, Javascript, and web design principles, hold weekly lab
           sections
           and office hours</p>
       </div>
       <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=100px>
-        <h3>Computer Science Mentors</h3>
+        <img src="assets/img/csm.png" alt="Computer Science Mentors Logo" height=90px class="logo" id="csm-logo">
+        <a href="https://csmentors.berkeley.edu/#/" target="_blank">
+          <h3>Computer Science Mentors</h3>
+        </a>
         <p><b>Small Group tutor</b>, hold weekly tutoring sections for CS61B, Data Structures</p>
       </div>
     </div>
@@ -50,25 +74,31 @@
   <div id="projects">
     <div class="info-block-row">
       <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=100px>
-        <h3>COVID-19 NLP Research Paper Analysis</h3>
+        <img src="assets/img/papers.png" alt="Papers Logo" height=80px class="logo">
+        <a href="https://github.com/jay-feng/CORD-project" target="_blank">
+          <h3>COVID-19 NLP Research Paper Analysis</h3>
+        </a>
         <p>Utilized NLP methods to identify what has been published about medical care in a dataset of over 40,000
           research papers related to the coronavirus</p>
       </div>
       <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=100px>
+        <img src="assets/img/terminal.png" alt="Terminal Logo" height=80px class="logo">
         <h3>Gitlet</h3>
-        <p>A lightweight version control system</p>
+        <p>A lightweight version control system (available upon request)</p>
       </div>
     </div>
     <div class="info-block-row">
       <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=100px>
-        <h3>Plastic Waste Disposal</h3>
+        <img src="assets/img/plastic.png" alt="Plastic Logo" height=80px class="logo">
+        <a href="https://jay-feng.github.io/plastic-waste/" target="_blank">
+          <h3>Plastic Waste Disposal</h3>
+        </a>
         <p>An interactive website that teaches users how to properly dispose of different types of plastic waste</p>
       </div>
     </div>
   </div>
+  <div id="credits">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
+      href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
 </body>
 
 </html>
