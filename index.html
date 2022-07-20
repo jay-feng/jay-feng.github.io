@@ -1,104 +1,137 @@
 <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
 <html>
-
-<head>
-  <meta charset="utf-8">
-  <title>Jay Feng</title>
-  <meta name="author" content="Jay Feng">
-  <meta name="description" content="Jay Feng Personal Website">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link
-    href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Playfair+Display:wght@400;700&family=Roboto&display=swap"
-    rel="stylesheet">
-</head>
-
-<body>
-  <header>
-    <h1>Hi, I'm Jay!</h1>
-    <div id="image-links">
-      <a href="mailto: jayfeng10@berkeley.edu"><img src="assets/img/email.png" alt="Email Logo" height=30px></a>
-      <a href="https://www.linkedin.com/in/jayccfeng/" target="_blank"><img src="assets/img/linkedin.png"
-          alt="Linkedin Logo" height=30px></a>
-      <a href="https://github.com/jay-feng" target="_blank"><img src="assets/img/github.png" alt="Github Logo"
-          height=30px></a>
-    </div>
-  </header>
-  <p id="intro">I'm currently a sophomore at UC Berkeley studying Computer Science and Data Science. I'm interested in
-    software development, data science and analytics, applied statistics, and teaching. Feel free to reach out to chat
-    about
-    anything!</p>
-  <h2>Experiences</h2>
-  <div id="experiences">
-    <div class="info-block-row">
-      <div class="info-block">
-        <img src="assets/img/bids.png" alt="Berkeley Institute for Data Science Logo" height=80px class="logo">
-        <a href="https://bids.berkeley.edu/" target="_blank">
-          <h3>Berkeley Institute for Data Science</h3>
-        </a>
-        <p><b>Software Developer and Team Lead</b> for the <a href="https://www.publiceditor.io">Public Editor
-            Project</a></p>
-      </div>
-      <div class="info-block">
-        <img src="assets/img/saas.png" alt="Student Association of Applied Statistics Logo" height=70px class="logo"
-          id="saas-logo">
-        <a href="https://saas.berkeley.edu/" target="_blank">
-          <h3>Student Association of Applied Statistics</h3>
-        </a>
-        <p><b>Co-director of the Insights and Analytics Commitee</b>, prepare workshops and mentor committee members on
-          a data science client project</p>
-      </div>
-    </div>
-    <div class="info-block-row">
-      <div class="info-block">
-        <img src="assets/img/wdd.png" alt="Web Design DeCal Logo" height=80px class="logo">
-        <a href="https://wdd.io/" target="_blank">
-          <h3>Web Design DeCal</h3>
-        </a>
-        <p><b>Teaching Assistant</b> - teach students HTML, CSS, Javascript, and web design principles, hold weekly lab
-          sections
-          and office hours</p>
-      </div>
-      <div class="info-block">
-        <img src="assets/img/csm.png" alt="Computer Science Mentors Logo" height=90px class="logo" id="csm-logo">
-        <a href="https://csmentors.berkeley.edu/#/" target="_blank">
-          <h3>Computer Science Mentors</h3>
-        </a>
-        <p><b>Small Group tutor</b>, hold weekly tutoring sections for CS61B, Data Structures</p>
-      </div>
-    </div>
-  </div>
-  <h2>Projects</h2>
-  <div id="projects">
-    <div class="info-block-row">
-      <div class="info-block">
-        <img src="assets/img/papers.png" alt="Papers Logo" height=80px class="logo">
-        <a href="https://github.com/jay-feng/CORD-project" target="_blank">
-          <h3>COVID-19 NLP Research Paper Analysis</h3>
-        </a>
-        <p>Utilized NLP methods to identify what has been published about medical care in a dataset of over 40,000
-          research papers related to the coronavirus</p>
-      </div>
-      <div class="info-block">
-        <img src="assets/img/terminal.png" alt="Terminal Logo" height=80px class="logo">
-        <h3>Gitlet</h3>
-        <p>A lightweight version control system (available upon request)</p>
-      </div>
-    </div>
-    <div class="info-block-row">
-      <div class="info-block">
-        <img src="assets/img/plastic.png" alt="Plastic Logo" height=80px class="logo">
-        <a href="https://jay-feng.github.io/plastic-waste/" target="_blank">
-          <h3>Plastic Waste Disposal</h3>
-        </a>
-        <p>An interactive website that teaches users how to properly dispose of different types of plastic waste</p>
-      </div>
-    </div>
-  </div>
-  <div id="credits">Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a
-      href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-</body>
-
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&family=Red+Hat+Display:wght@300;400&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/experience.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <header>
+            <a href="index.html">
+                <img src="assets/logos/jf.png" alt="JF logo" height="30px">
+            </a>
+            <div id="header-right">
+                <a href="aboutme.html">
+                    <div class="header-text">About Me</div>
+                </a>
+                <a href="blog.html">
+                    <div class="header-text">Blog</div>
+                </a>
+            </div>
+        </header>
+        <h1>Hello! I'm Jay, a 
+            <span id="software-box"><span>Software Developer</span><span id="software-highlight"></span><span id="software-highlight-mask"></span></span>,<br> 
+            <span id="data-box"><span>Data Scientist</span><span id="data-highlight"></span><span id="data-highlight-mask"></span></span>, and 
+            <span id="educator-box"><span>Educator</span><span id="educator-highlight"></span><span id="educator-highlight-mask"></span></span> @ UC Berkeley<br> 
+            Studying CS and Data Science</h1>
+        <div id="links">
+            <a target="_blank" rel="noopener noreferrer" href="jayfeng10@berkeley.edu">
+                <img class="link-img" src="assets/logos/email.png" alt="Email logo" height="22px">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="index.html">
+                <img class="link-img" src="assets/logos/linkedin.png" alt="Linkedin logo" height="22px">
+            </a>
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jayccfeng/">
+                <img class="link-img" src="assets/logos/github.png" alt="Github logo" height="22px">
+            </a>
+        </div>
+        <h3>Hover over the blocks to learn about my projects and experiences!</h3>
+        <div id="experience-view">
+            <div class="experience-block" id="experience-block-1">
+                <div class="experience-block-content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://devrev.ai/">
+                        <img class="experience-logo" src="assets/logos/devrev.png" alt="DevRev logo" height="41px"></img>
+                    </a>
+                    <div class="experience-title">Software Engineering Intern @ DevRev</div>
+                    <div class="experience-date">Summer 2022</div>
+                    <div class="experience-description" id="experience-description-1">Currently interning at DevRev, an early-stage startup backed by Khosla Ventures and Mayfield building a new issue management system + CRM.<br><br>More information to come soon!</div>
+                </div>
+            </div>
+            <div class="experience-block" id="experience-block-2">
+                <div class="experience-block-content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.cortexhc.com/">
+                        <img class="experience-logo" src="assets/logos/cortex.png" alt="Cortex HC logo" height="30px"></img>
+                    </a>
+                    <div class="experience-title">Data Scientist @ Cortex Health</div>
+                    <div class="experience-date">Spring 2022 - Current</div>
+                    <div class="experience-description" id="experience-description-2">
+                        I joined Cortex Health (part time) as the first data hire after working with them through SAAS Berkeley.<br><br> Here, I've been building tools for healthcare providers to gain insight into employee turnover and improving on the hospital readmission model.
+                    </div>
+                </div>
+            </div>
+            <div class="experience-block" id="experience-block-3">
+                <div class="experience-block-content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://saas.berkeley.edu/">
+                        <img class="experience-logo" src="assets/logos/saas.png" alt="SAAS logo" height="40px"></img>
+                    </a>
+                    <div class="experience-title">Data Science Project Manager @ SAAS Berkeley</div>
+                    <div class="experience-date">Spring 2021 - Current</div>
+                    <div class="experience-description" id="experience-description-3">SAAS Berkeley is a student organization at UC Berkeley that does contract data science/ML work with industry clients. Here are some of the projects I've led and worked on:
+                        <ul>
+                            <li>Fall 2022: (PM) Coming soon!</li>
+                            <li>Spring 2022: (advisor/developer) built an embedding-based knowledge graph question-answering system for [24]7.ai</li>
+                            <li>Fall 2021: (PM) build a model to predict 30-day hospital readmission for Cortex Health</li>
+                            <li>Spring 2021: (PM) developed NLP data analysis tools to improve customer retention for byHumankind</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="experience-block" id="experience-block-4">
+                <div class="experience-block-content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://data.berkeley.edu/">
+                        <img class="experience-logo" src="assets/logos/berkeley.png" alt="Berkeley logo" height="30px"></img>
+                    </a>
+                    <div class="experience-title">Teaching Assistant @ UC Berkeley</div>
+                    <div class="experience-date">Spring 2022</div>
+                    <div class="experience-description" id="experience-description-4">I was a Teaching Assistant for Data 100, Berkeley's core upper-division data science course on data analysis (SQL and Pandas), predictive modeling (linear regression, decision trees), and statistical inference.<br><br> My responsibilities included teaching weekly discussion sections to a class of ~30 students, holding office hours, and helping develop course content.<br><br> Prior to being a TA I was also a course tutor for two semesters!</div>
+                </div>
+            </div>
+            <div class="experience-block" id="experience-block-5">
+                <div class="experience-block-content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://wdd.io/">
+                        <img class="experience-logo" src="assets/logos/wdd.png" alt="WDD logo" height="33px"></img>
+                    </a>
+                    <div class="experience-title">Course Instructor @ Berkeley Web Design DeCal</div>
+                    <div class="experience-date">Fall 2021</div>
+                    <div class="experience-description" id="experience-description-5">The Web Design DeCal is a 2-unit student-run class at UC Berkeley that teaches web design (Figma) and development (HTML, CSS, JavaScript) to a class of 120 students every semester.<br><br> As one of three course instructors, I taught weekly lectures, held office hours, managed grading, maintained the class portal, and led a team of eight teaching assistants.<br><br> Prior to that, I was also a TA for two semesters :)</div>
+                </div>
+            </div>
+            <div class="experience-block" id="experience-block-6">
+                <div class="experience-block-content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.goexpedi.com/">
+                        <img class="experience-logo" src="assets/logos/GoExpedi.png" alt="GoExpedi logo" height="24px"></img>
+                    </a>
+                    <div class="experience-title">Software Engineering Intern @ GoExpedi</div>
+                    <div class="experience-date">Summer 2021</div>
+                    <div class="experience-description" id="experience-description-6">At GoExpedi, I was a software engineering intern on the DevOps team, where I primarily built infrastructure to manage the organization's Github resources through Terraform, and developed scripts to generate Terraform code from existing resources using the Github API.</div>
+                </div>
+            </div>
+            <div class="experience-block" id="experience-block-7">
+                <div class="experience-block-content">
+                    <a target="_blank" rel="noopener noreferrer" href="https://www.goodlylabs.org/">
+                        <img class="experience-logo" src="assets/logos/pe.png" alt="Public Editor x BIDS logo" height="35px"></img>
+                    </a>
+                    <div class="experience-title">Data Science Researcher @ Goodly Labs x Berkeley Institute for Data Science</div>
+                    <div class="experience-date">Fall 2019 - Fall 2021</div>
+                    <div class="experience-description" id="experience-description-7">For many semesters I worked on the Public Editor project, a joint project between Goodly labs and the Berkeley Institute for Data Science that aims to combat misinformation through a citizen science approach, where users complete objective/trivial tasks which are used to score an article on various misinformation metrics.<br><br> I worked on and eventually led the User Monitoring team, where we developed algorithms and a data pipeline to score user credibility based on response agreeableness and variance.</div>
+                </div>
+            </div>
+        </div>
+        <div id="footer">Website designed and built from scratch :)</div>
+        <script src="assets/scripts/script.js" async defer></script>
+    </body>
 </html>
