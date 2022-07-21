@@ -72,7 +72,7 @@ function moveDataBlocksBack() {
     document.body.style.cursor = "default";
 
     expBlock2.style.transition = "transform 0.2s ease-in-out"
-    expBlock2.style.transform = "translateY(-25px)";
+    expBlock2.style.transform = "translateY(-30px)";
     setTimeout(function(){expBlock2.style.transition = "width 0.2s ease-in"}, 200);
 
     expBlock3.style.transition = "transform 0.2s ease-in-out"
