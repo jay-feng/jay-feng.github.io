@@ -1,0 +1,194 @@
+#experience-view {
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+
+.experience-block {
+    width: 90%;
+    height: 500px;
+    padding: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
+    overflow: hidden;
+}
+
+.experience-logo {
+    margin-bottom: 12px;
+}
+
+.experience-title {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 8px;
+}
+
+#experience-block-1 {
+    transition: width 0.15s ease-in;
+    margin-left: 0px;
+    background-color: #C7F3F3;
+    transform: translateY(0px);
+}
+
+#experience-block-1:hover {
+    width: 40%;
+}
+
+#experience-block-2 {
+    transition: width 0.15s ease-in;
+    background-color: #FFAEBC;
+    transform: translateY(-30px);
+}
+
+#experience-block-2:hover {
+    width: 40%;
+}
+
+#experience-block-3 {
+    transition: width 0.15s ease-in;
+    background-color: #FFAEBC;
+    transform: translateY(10px);
+}
+
+#experience-block-3:hover {
+    width: 40%;
+}
+
+
+#experience-block-4 {
+    transition: width 0.15s ease-in;
+    background-color: #E8CEFC;
+    transform: translateY(50px);
+}
+
+#experience-block-4:hover {
+    width: 40%;
+}
+
+
+#experience-block-5 {
+    transition: width 0.15s ease-in;
+    background-color: #E8CEFC;
+    transform: translateY(0px);
+}
+
+#experience-block-5:hover {
+    width: 40%;
+}
+
+
+#experience-block-6 {
+    transition: width 0.15s ease-in;
+    background-color: #C7F3F3;
+    transform: translateY(50px);
+}
+
+#experience-block-6:hover {
+    width: 40%;
+}
+
+
+#experience-block-7 {
+    transition: width 0.15s ease-in;
+    background-color: #FFAEBC;
+    margin-right: 0px;
+}
+
+#experience-block-7:hover {
+    width: 40%;
+}
+
+.experience-block-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.experience-date {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 8px;
+}
+
+.experience-description {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+#experience-block-1 .experience-description {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+#experience-block-1:hover .experience-description {
+    opacity: 1;
+    transition-delay: 0.15s;
+}
+
+#experience-block-2 .experience-description {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+#experience-block-2:hover .experience-description {
+    opacity: 1;
+    transition-delay: 0.15s;
+}
+
+
+#experience-block-3 .experience-description {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+#experience-block-3:hover .experience-description {
+    opacity: 1;
+    transition-delay: 0.15s;
+}
+
+
+#experience-block-4 .experience-description {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+#experience-block-4:hover .experience-description {
+    opacity: 1;
+    transition-delay: 0.15s;
+}
+
+
+#experience-block-5 .experience-description {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+#experience-block-5:hover .experience-description {
+    opacity: 1;
+    transition-delay: 0.15s;
+}
+
+#experience-block-6 .experience-description {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+#experience-block-6:hover .experience-description {
+    opacity: 1;
+    transition-delay: 0.15s;
+}
+
+#experience-block-7 .experience-description {
+    transition: 0.2s;
+    opacity: 0;
+}
+
+#experience-block-7:hover .experience-description {
+    opacity: 1;
+    transition-delay: 0.15s;
+}

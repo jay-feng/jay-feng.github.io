@@ -13,8 +13,10 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&family=Red+Hat+Display:wght@300;400&display=swap" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/experience.css">
+        <link rel="stylesheet"  media="(min-width: 650px)"  href="assets/css/style.css" type="text/css" />
+        <link rel="stylesheet"  media="(max-width: 649px)"  href="assets/css/style_mobile.css" type="text/css" />
+        <link rel="stylesheet"  media="(min-width: 650px)"  href="assets/css/experience.css" type="text/css" />
+        <link rel="stylesheet"  media="(max-width: 649px)"  href="assets/css/experience_mobile.css" type="text/css" />
         <link rel="shortcut icon" href="assets/logos/jf.png"/>
     </head>
     <body>
@@ -34,11 +36,18 @@
                 </a>
             </div>
         </header>
-        <h1>Hello! I'm Jay, a 
+        <h1>Hello! I'm Jay, a
+            <span id="software-box"><span>Software Developer</span><span id="software-highlight"></span><span id="software-highlight-mask"></span></span>,<br>
+            <span id="data-box"><span>Data Scientist</span><span id="data-highlight"></span><span id="data-highlight-mask"></span></span>, and
+            <span id="educator-box"><span>Educator</span><span id="educator-highlight"></span><span id="educator-highlight-mask"></span></span> @ UC Berkeley
+            Studying CS and Data Science
+        </h1>
+        <div id="h1-mobile">Hello! I'm Jay, a  <br>
             <span id="software-box"><span>Software Developer</span><span id="software-highlight"></span><span id="software-highlight-mask"></span></span>,<br> 
-            <span id="data-box"><span>Data Scientist</span><span id="data-highlight"></span><span id="data-highlight-mask"></span></span>, and 
+            <span id="data-box"><span>Data Scientist</span><span id="data-highlight"></span><span id="data-highlight-mask"></span></span>, and <br>
             <span id="educator-box"><span>Educator</span><span id="educator-highlight"></span><span id="educator-highlight-mask"></span></span> @ UC Berkeley<br> 
-            Studying CS and Data Science</h1>
+            Studying CS and Data Science
+        </div>
         <div id="links">
             <a target="_blank" rel="noopener noreferrer" href="jayfeng10@berkeley.edu">
                 <img class="link-img" src="assets/logos/email.png" alt="Email logo" height="22px">
@@ -51,6 +60,7 @@
             </a>
         </div>
         <h3>Hover over the blocks to learn about my projects and experiences!</h3>
+        <div id="h3-mobile">Website mobile compatibility coming soon, view on desktop for full view. Sorry!</div>
         <div id="experience-view">
             <div class="experience-block" id="experience-block-1">
                 <div class="experience-block-content">
@@ -85,7 +95,7 @@
                         <ul>
                             <li>Fall 2022: (PM) Coming soon!</li>
                             <li>Spring 2022: (advisor/developer) built an embedding-based knowledge graph question-answering system for [24]7.ai</li>
-                            <li>Fall 2021: (PM) build a model to predict 30-day hospital readmission for Cortex Health</li>
+                            <li>Fall 2021: (PM) built a model to predict 30-day hospital readmission for Cortex Health</li>
                             <li>Spring 2021: (PM) developed NLP data analysis tools to improve customer retention for byHumankind</li>
                         </ul>
                     </div>

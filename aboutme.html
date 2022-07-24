@@ -16,7 +16,8 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@600&family=Red+Hat+Display:wght@300;400&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet"  media="(min-width: 650px)"  href="assets/css/style.css" type="text/css" />
+    <link rel="stylesheet"  media="(max-width: 649px)"  href="assets/css/style_mobile.css" type="text/css" />
     <link rel="shortcut icon" href="assets/logos/jf.png"/>
   </head>
   <body>
@@ -41,7 +42,7 @@
     </header>
     <div id="about-me">
       <div id="about-me-text">
-        <h1>About Me</h1>
+        <div id="h1-mobile">About Me</h1>
         <p>
           My name is Jay Feng and I'm a senior at UC Berkeley studying Computer
           Science and Data Science. I enjoy working on projects that can bring
@@ -54,7 +55,7 @@
           some time to chat or help out however I can. Thanks for visiting!
         </p>
       </div>
-      <img src="assets/jay.jpg" alt="JF logo" height="500px" />
+      <img id="jay-img" src="assets/jay.jpg" alt="JF logo" height="500px" />
     </div>
     <script src="" async defer></script>
   </body>
