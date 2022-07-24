@@ -120,6 +120,10 @@ h3 {
     padding-bottom: 60px;
 }
 
+#h3-mobile {
+    display: none;
+}
+
 #footer {
     font-family: 'Red Hat Display', sans-serif;
     font-size: 16px;
